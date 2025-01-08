@@ -26,7 +26,7 @@ export default {
           5: "#3F3A52",
           6: "#252134",
           7: "#15131D",
-          8: "#00001b", /*Azul marinho para fundo*/
+          8: "#00000d", /*Azul marinho para fundo*/
           9: "#474060",
           10: "#43435C",
           11: "#1B1B2E",

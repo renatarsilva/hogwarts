@@ -1,4 +1,4 @@
-import { curve, heroBackground, robot } from "../assets";
+import { curve, heroBackground, castelo } from "../assets";
 import Button from "./Button";
 import Section from "./design/Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
@@ -29,13 +29,11 @@ const Hero = () => {
           The best wizarding school {``} is
             <span className="inline-block relative">
             Hogwarts{" "}
-              <img
-                src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
-                width={624}
-                height={28}
-                alt="curve"
-              />{" "}
+            <div className="relative w-full mt-2 h-1 bottom-0 bg-gradient-to-r from-yellow-900 via-yellow-300 to-yellow-900 rounded-full transform hover:scale-x-110 transition-transform duration-300" 
+          style={{
+            clipPath: 'polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%)'
+          }}
+        />{" "}
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
@@ -65,8 +63,8 @@ const Hero = () => {
                 490] lg:aspect-[1024/490]"
               >
                 <img
-                  src={robot}
-                  className="w-full scale-[1.7]
+                  src={castelo}
+                  className="w-full scale-[1.9]
                     translate-y-[8%] md:scale-[1] 
                     md:-translate-y-[10%] lg:-translate-y-
                     [23%]"
@@ -116,6 +114,7 @@ const Hero = () => {
               height={1800}
               alt="hero"
             />
+            <div className="absolute inset-0" style={{background:'radial-gradient(circle,transparent 30%, rgba(0,0,0,0.7) 60% ,black 100%)'}}/>
           </div>
 
           <BackgroundCircles />
