@@ -7,8 +7,47 @@ export default {
   theme: {
     extend: {
       colors: {
+        gryffindor: {
+          DEFAULT: "#ae0001",
+          dark: "#CB0F2A",
+          accent: "#eeba35",
+          secondary: "#F1AC29",
+        },
+        slytherin: {
+          DEFAULT: "#0E5B51",
+          dark: "#8B8F8B",
+          accent: "#A2A2A2",
+          secondary: "#BFC3C6",
+        },
+        ravenclaw: {
+          DEFAULT: "#0B5A89",
+          dark: "#91979b",
+          accent: "#A2ABB2",
+          secondary: "#F1F1F1",
+        },
+        hufflepuff: {
+          DEFAULT: "#ECAF1F",
+          dark: "#000000",
+          accent: "#504E53",
+          secondary: "#F1F1F1",
+        },
+        hogwarts: {
+          black: "#000000",
+          gold: {
+            DEFAULT: "#d3a625",
+            dark: "#946b2d",
+            darker: "#372e29",
+            light: "#eeba30",
+            lighter: "#726255",
+          },
+          silver: {
+            DEFAULT: "#aaaaaa",
+            dark: "#5d5d5d",
+            light: "#bebebe",
+          },
+        },
         color: {
-          1: "#e4b518", /* amarelo ouro para hover */
+          1: "#e4b518" /* amarelo ouro para hover */,
           2: "#FFC876",
           3: "#FF776F",
           4: "#7ADB78",
@@ -26,7 +65,7 @@ export default {
           5: "#3F3A52",
           6: "#252134",
           7: "#15131D",
-          8: "#00000d", /*Azul marinho para fundo*/
+          8: "#00000d" /*Azul marinho para fundo*/,
           9: "#474060",
           10: "#43435C",
           11: "#1B1B2E",
@@ -69,7 +108,9 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          "conic-gradient( from 225deg,  #726255 0%,   #8a5f2c 15%,   #946b2d 30%,   #b88d24 45%,   #d3a625 60%,   #e2b42c 75%,   #eeba30 90%,   #726255 100% )",
+        "conic-gradient-silver":
+          "conic-gradient( from 225deg,  #bebebe 0%,   #5d5d5d 15%,   #8B8F8B 30%,   #aaaaaa 45%,   #BFC3C6 60%,   #cacaca 75%,    #fafafa 90%,   #bebebe 100% )",
       },
     },
   },
@@ -130,4 +171,3 @@ export default {
     }),
   ],
 };
-

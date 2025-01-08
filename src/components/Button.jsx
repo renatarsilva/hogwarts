@@ -1,30 +1,27 @@
-import ButtonSvg from '../assets/svg/ButtonSvg';
+import ButtonSvg from "../assets/svg/ButtonSvg";
 const Button = ({ className, href, onclick, children, px, white }) => {
-const classes = `button relative inline-flex 
+  const classes = `button relative inline-flex 
 items-center justify-center h-11 transition-colors 
-hover:text-color-1 ${
-    px || "px-7" } ${white ? 
-"text-n-8" : "text-n-1"} ${className || ""}`;
-const spanClasses = 'relative z-10';
+hover:text-hogwarts-gold-dark ${px || "px-7"} ${
+    white ? "text-n-8" : "text-n-1"
+  } ${className || ""}`;
+  const spanClasses = "relative z-10";
 
-const renderButton =() => (
+  const renderButton = () => (
     <button className={classes} onClick={onclick}>
-        <span className={spanClasses}>{children}</span>
-        {ButtonSvg(white)}
+      <span className={spanClasses}>{children}</span>
+      {ButtonSvg(white)}
     </button>
-);
+  );
 
-const renderLink = () => (
+  const renderLink = () => (
     <a href={href} className={classes}>
-    <span className={spanClasses}>{children}</span>
-    {ButtonSvg(white)}
-
+      <span className={spanClasses}>{children}</span>
+      {ButtonSvg(white)}
     </a>
-)
+  );
 
-return href
-? renderLink()
-: renderButton();
-}
+  return href ? renderLink() : renderButton();
+};
 
 export default Button;
