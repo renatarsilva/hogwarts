@@ -39,8 +39,8 @@ import {
 export const navigation = [
     {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Professors",
+    url: "#Professors",
     },
     {
     id: "1",
@@ -49,17 +49,17 @@ export const navigation = [
     },
     {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Sorting Hat",
+    url: "#Sorting-hat",
     },
     {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Houses",
+    url: "#Houses",
     },
     {
     id: "4",
-    title: "New account",
+    title: "Sign up",
     url: "#signup",
     onlyMobile: true,
     },

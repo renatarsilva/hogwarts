@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
+          1: "#e4b518", /* amarelo ouro para hover */
           2: "#FFC876",
           3: "#FF776F",
           4: "#7ADB78",
@@ -26,7 +26,7 @@ export default {
           5: "#3F3A52",
           6: "#252134",
           7: "#15131D",
-          8: "#0E0C15",
+          8: "#00001b", /*Azul marinho para fundo*/
           9: "#474060",
           10: "#43435C",
           11: "#1B1B2E",
