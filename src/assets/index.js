@@ -25,6 +25,10 @@ import background from "./background.jpg";
 import curve from "./hero/curve.png";
 import castelo from "./hero/castelo.jpg";
 import heroBackground from "./hero/hero-background.jpg";
+import yourlogo1 from "./yourlogo1.png";
+import yourlogo2 from "./yourlogo2.png";
+import yourlogo3 from "./yourlogo3.png";
+import yourlogo4 from "./yourlogo4.png";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
@@ -69,6 +73,7 @@ import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
+import alvo from "./benefits/alvo.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -77,6 +82,11 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  alvo,
+  yourlogo1,
+  yourlogo2,
+  yourlogo3,
+  yourlogo4,
   logo,
   brainwave,
   check,
