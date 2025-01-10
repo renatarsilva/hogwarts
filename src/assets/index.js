@@ -45,10 +45,14 @@ import jogador2 from "./collaboration/jogador2.png";
 import jogador3 from "./collaboration/jogador3.png";
 import jogador4 from "./collaboration/jogador4.png";
 import pomodeouro from "./collaboration/pomodeouro.png";
+import gol from "./collaboration/gol.png";
+import torre1 from "./collaboration/torre1.png";
+import torre2 from "./collaboration/torre2.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import taca from "./services/taca.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -150,9 +154,14 @@ export {
   jogador2,
   jogador3,
   jogador4,
+  pomodeouro,
+  gol,
+  torre1,
+  torre2,
   service1,
   service2,
   service3,
+  taca,
   lines,
   stars,
   coins,

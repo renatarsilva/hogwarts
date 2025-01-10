@@ -11,7 +11,7 @@ const Benefits = () => {
     <Section id="features">
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl text-center"
+          className="md:max-w-md lg:max-w-2xl text-center text-color-2"
           title="Meet our professors of Magic and Witchcraft."
         />
 
@@ -28,7 +28,7 @@ const Benefits = () => {
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-2 mb-6 text-n-3">{item.text}</p>
+                <p className="body-2 mb-6 text-n-1">{item.text}</p>
                 <div className="flex items-center mt-auto">
                   <img
                     src={item.iconUrl}
