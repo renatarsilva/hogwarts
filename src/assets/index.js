@@ -40,6 +40,11 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import jogador1 from "./collaboration/jogador1.png";
+import jogador2 from "./collaboration/jogador2.png";
+import jogador3 from "./collaboration/jogador3.png";
+import jogador4 from "./collaboration/jogador4.png";
+import pomodeouro from "./collaboration/pomodeouro.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -74,6 +79,15 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 import alvo from "./benefits/alvo.png";
+import minerva from "./benefits/minerva.jpg";
+import snape from "./benefits/snape.png";
+import sibila from "./benefits/sibila.png";
+import filius from "./benefits/filius.jpg";
+import pomona from "./benefits/pomona.png";
+import iconsonserina from "./benefits/iconsonserina.png";
+import icongrifinoria from "./benefits/icongrifinoria.png";
+import iconcorvinal from "./benefits/iconcorvinal.png";
+import iconlufalufa from "./benefits/iconlufalufa.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -83,6 +97,15 @@ import twitter from "./socials/twitter.svg";
 
 export {
   alvo,
+  minerva,
+  snape,
+  sibila,
+  filius,
+  pomona,
+  iconsonserina,
+  icongrifinoria,
+  iconcorvinal,
+  iconlufalufa,
   yourlogo1,
   yourlogo2,
   yourlogo3,
@@ -123,6 +146,10 @@ export {
   protopie,
   raindrop,
   slack,
+  jogador1,
+  jogador2,
+  jogador3,
+  jogador4,
   service1,
   service2,
   service3,

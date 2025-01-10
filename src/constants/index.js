@@ -1,10 +1,19 @@
 import {
   alvo,
-  benefitIcon1,
-  benefitIcon2,
-  benefitIcon3,
-  benefitIcon4,
-  benefitImage2,
+  minerva,
+  snape,
+  sibila,
+  filius,
+  pomona,
+  logo,
+  iconsonserina,
+  icongrifinoria,
+  iconcorvinal,
+  iconlufalufa,
+  jogador1,
+  jogador2,
+  jogador3,
+  jogador4,
   chromecast,
   disc02,
   discord,
@@ -83,9 +92,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo1, yourlogo2, yourlogo3, yourlogo4];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Gold Medal for the 2nd Year in a Row",
+  "Champion Students",
+  "Best Quidditch Teachers",
 ];
 
 export const brainwaveServicesIcons = [
@@ -133,21 +142,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Hogwarts has the best Quidditch teachers in the wizarding world: qualified, truly exceptional.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Best Quidditch Teachers",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Champion Students",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Gold Medal for the 2nd Year in a Row",
   },
 ];
 
@@ -161,8 +170,8 @@ export const collabApps = [
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Jogador2",
+    icon: jogador2,
     width: 34,
     height: 36,
   },
@@ -175,8 +184,8 @@ export const collabApps = [
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "jogador3",
+    icon: jogador3,
     width: 34,
     height: 35,
   },
@@ -189,8 +198,8 @@ export const collabApps = [
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "jogador4",
+    icon: jogador4,
     width: 34,
     height: 34,
   },
@@ -203,8 +212,8 @@ export const collabApps = [
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "jogador1",
+    icon: jogador1,
     width: 38,
     height: 32,
   },
@@ -249,53 +258,53 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Alvo Dumbledore",
-    text: "Albus Dumbledore is a highly skilled Transfiguration professor at Hogwarts. He guides students in mastering magic through wisdom, creativity, and a deep understanding of their potential.",
+    title: "Albus Dumbledore",
+    text: "Albus Dumbledore is the wise and respected Headmaster of Hogwarts.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: logo,
     imageUrl: alvo,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Severus Snape",
+    text: "Severus Snape is the skilled and strict Potions Master at Hogwarts and head of Slytherin House.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    iconUrl: iconsonserina,
+    imageUrl: snape,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Sibila Trelawney",
+    text: "Professor Sybill Trelawney teaches Divination, uncovering the mysteries of the future with her mystical insight.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    iconUrl: iconcorvinal,
+    imageUrl: sibila,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Filius Flitwick",
+    text: "Filius Flitwick is the Charms Master at Hogwarts and the head of Ravenclaw house.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    iconUrl: iconcorvinal,
+    imageUrl: filius,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Pomona Sprout",
+    text: "Pomona Sprout is Professor of Herbology and the Head of Hufflepuff House.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    iconUrl: iconlufalufa,
+    imageUrl: pomona,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Minerva McGonagall",
+    text: "Minerva McGonagall is the Gryffindor head and Transfiguration professor at Hogwarts, serving as deputy headmistress under Dumbledore.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    iconUrl: icongrifinoria,
+    imageUrl: minerva,
   },
 ];
 
