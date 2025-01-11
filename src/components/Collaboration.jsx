@@ -3,13 +3,15 @@ import Section from "./design/Section";
 import { brainwaveSymbol, check, pomodeouro } from "../assets";
 import Button from "./Button";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+import { Gradient } from "./design/Hero";
+import { GradientLight } from "./design/Benefits";
 
 const Collaboration = () => {
   return (
     <Section crosses>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8 text-color-5">All About Quidditch</h2>
+          <h2 className="h2 mb-4 md:mb-8 text-color-2 ">All About Quidditch</h2>
           <ul className="mx-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
@@ -17,9 +19,6 @@ const Collaboration = () => {
                   <img src={pomodeouro} width={62} height={62} alt="check" />
                   <h6 className="body-2 ml-5">{item.title}</h6>
                 </div>
-                {item.text && (
-                  <p className="body-2 mt-3 text-n-1">{item.text}</p>
-                )}
               </li>
             ))}
           </ul>

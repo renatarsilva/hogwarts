@@ -89,9 +89,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo1, yourlogo2, yourlogo3, yourlogo4];
 
 export const brainwaveServices = [
-  "AUMENTE SUAS HABILIDADES COM A VARA, VENHA VC TB EXPERIMENTATR A VARA DO HARRY",
-  "TESTE",
-  "TESTE",
+  "The Triwizard Tournament: A test of courage and skill, with Hogwarts emerging victorious!",
+  "Hogwarts' champions claimed glory in the Triwizard Tournament!",
+  "Victory at the Triwizard Tournament showcased Hogwarts' strength and bravery!",
 ];
 
 export const brainwaveServicesIcons = [
@@ -223,9 +223,9 @@ export const pricing = [
     description: "Awaken Your Magic: Step into the Wizarding World",
     price: "15",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Awaken your magic and take your first steps into the wizarding world!",
+      "Discover the basics of spells, potions, and magical creatures in this beginner-friendly course.",
+      "Every great wizard starts somewhere – begin your journey today!",
     ],
   },
   {
@@ -234,9 +234,9 @@ export const pricing = [
     description: "Unlock Hogwarts’ Secrets: The Ultimate Wizarding Experience",
     price: "50",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "An exclusive experience for those seeking to unlock Hogwarts’ best-kept secrets!",
+      "Explore hidden chambers, ancient spells, and the legacy of great wizards",
+      "The headmaster has chosen you – embrace the ultimate magical adventure!",
     ],
   },
   {
@@ -245,9 +245,9 @@ export const pricing = [
     description: "Master the Art of Magic: Become an Advanced Spellcaster",
     price: "30",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Master advanced spells and enchantments to become a true magic expert!",
+      "Push your magical limits and unlock the secrets of advanced wizardry.",
+      "Take your magic to the next level and stand among the most skilled spellcasters",
     ],
   },
 ];
@@ -257,8 +257,8 @@ export const benefits = [
     id: "0",
     title: "Albus Dumbledore",
     text: "Albus Dumbledore is the wise and respected Headmaster of Hogwarts.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: logo,
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
+    iconUrl: icongrifinoria,
     imageUrl: alvo,
   },
   {

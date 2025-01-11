@@ -52,6 +52,8 @@ import torre2 from "./collaboration/torre2.png";
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import aula1 from "./services/aula1.jpg";
+import aula2 from "./services/aula2.jpg";
 import taca from "./services/taca.png";
 
 import lines from "./pricing/lines.svg";
@@ -158,6 +160,8 @@ export {
   gol,
   torre1,
   torre2,
+  aula1,
+  aula2,
   service1,
   service2,
   service3,

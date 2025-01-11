@@ -1,6 +1,14 @@
 import Section from "./design/Section";
 import Heading from "./Heading";
-import { service1, service2, service3, taca, check } from "../assets";
+import {
+  service1,
+  service2,
+  service3,
+  taca,
+  aula1,
+  aula2,
+  check,
+} from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import Generating from "./Generating";
 import {
@@ -33,7 +41,7 @@ const Services = () => {
                 className="w-full h-full object-cover
                         md:object-right"
                 width={800}
-                alt="Smartest AI"
+                alt="Taca"
                 height={730}
                 src={taca}
               />
@@ -42,8 +50,9 @@ const Services = () => {
               className="relative z-1 max-w-[17rem]
                     ml-auto"
             >
-              <h4 className="h4 mb-4 text-center">Triwizard Tournament.</h4>
-              <p className="body-2 mb-[3rem] text-n-3">TESTE</p>
+              <h4 className="h4 mb-4 text-color-1 text-center">
+                Triwizard Tournament.
+              </h4>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
                   <li
@@ -61,7 +70,7 @@ const Services = () => {
             <div className="relative min-h-[39rem] border  border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolutes inset-0">
                 <img
-                  src={service2}
+                  src={aula1}
                   className="h-full w-full object-cover"
                   width={630}
                   height={750}
@@ -80,16 +89,15 @@ const Services = () => {
                   photo editing feature. Try it now!
                 </p>
               </div>
-              <PhotoChatMessage />
+              {/* <PhotoChatMessage /> */}
             </div>
 
             <div className="p-4 bg-n-7 rounded-3-xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
-                <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
-                </p>
+                <h4 className="h4 mb-4 text-center">
+                  The best school in the wizarding world
+                </h4>
+                <p className="body-2 mb-[2rem] text-n-3">As</p>
 
                 <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
@@ -119,11 +127,11 @@ const Services = () => {
                             rounded-xl overflow-hidden md:h-[25rem]"
               >
                 <img
-                  src={service3}
+                  src={aula2}
                   className="w-full
                                 h-full object-cover"
-                  width={520}
-                  height={400}
+                  width={1080}
+                  height={920}
                   alt="Scary robot"
                 />
                 <VideoChatMessage />

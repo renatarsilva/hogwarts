@@ -4,7 +4,6 @@ import Heading from "./Heading";
 
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
-import clipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
@@ -37,7 +36,7 @@ const Benefits = () => {
                     alt={item.title}
                   />
                   <p
-                    className="ml-auto font-code text-xs font-bold text-n-1 uppercase
+                    className="ml-auto font-code text-xs font-bold text-neutral-300 uppercase
                     tracking-wider"
                   >
                     Discover more
@@ -59,7 +58,7 @@ const Benefits = () => {
                       width={380}
                       height={362}
                       alt={item.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover rounded-lg"
                     />
                   )}
                 </div>
