@@ -1,5 +1,6 @@
 import brainwave from "./brainwave.svg";
 import logo from "./brasao.png";
+import patrono from "./patrono.png";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -54,6 +55,11 @@ import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
 import aula1 from "./services/aula1.jpg";
 import aula2 from "./services/aula2.jpg";
+import herbo from "./services/herbo.png";
+import pocao from "./services/pocao.png";
+import bola from "./services/bola.png";
+import gato from "./services/gato.png";
+import livro from "./services/livro.png";
 import taca from "./services/taca.png";
 
 import lines from "./pricing/lines.svg";
@@ -117,6 +123,7 @@ export {
   yourlogo3,
   yourlogo4,
   logo,
+  patrono,
   brainwave,
   check,
   check2,
@@ -162,6 +169,11 @@ export {
   torre2,
   aula1,
   aula2,
+  herbo,
+  pocao,
+  bola,
+  gato,
+  livro,
   service1,
   service2,
   service3,

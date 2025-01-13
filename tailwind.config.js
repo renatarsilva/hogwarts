@@ -53,6 +53,7 @@ export default {
           4: "#0B5A89",
           5: "#ffffff",
           6: "#aaaaaa",
+          7: "#000000",
         },
         stroke: {
           1: "#26242C",

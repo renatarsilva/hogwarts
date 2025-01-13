@@ -32,7 +32,11 @@ import {
   photoshop,
   plusSquare,
   recording01,
-  recording03,
+  herbo,
+  pocao,
+  bola,
+  gato,
+  livro,
   roadmap1,
   roadmap2,
   roadmap3,
@@ -94,13 +98,7 @@ export const brainwaveServices = [
   "Victory at the Triwizard Tournament showcased Hogwarts' strength and bravery!",
 ];
 
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
-];
+export const brainwaveServicesIcons = [herbo, pocao, bola, gato, livro];
 
 export const roadmap = [
   {

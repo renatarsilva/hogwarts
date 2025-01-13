@@ -57,7 +57,7 @@ const Services = () => {
                 {brainwaveServices.map((item, index) => (
                   <li
                     key={index}
-                    className="flex items-start py-4 border-t border-n-6"
+                    className="flex items-start py-4 border-t border-n-8"
                   >
                     <img width={24} height={24} src={taca} />
                     <p className="ml-4">{item}</p>
@@ -82,22 +82,25 @@ const Services = () => {
                 className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b
                             from-n-8/0 to-n-8/90 lg:p-15"
               >
-                <h4 className="h4 mb-4">Photo editing</h4>
+                <h4 className="h4 mb-4">Advanced Classes</h4>
 
-                <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app'&apos;s
-                  photo editing feature. Try it now!
+                <p className="body-2 mb-[3rem] text-n-1">
+                  We have the best classes! Hogwarts is the best wizarding
+                  school for your child to study!
                 </p>
               </div>
-              {/* <PhotoChatMessage /> */}
             </div>
 
             <div className="p-4 bg-n-7 rounded-3-xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4 text-center">
+                <h4 className="h4 mb-4 text-center text-color-4">
                   The best school in the wizarding world
                 </h4>
-                <p className="body-2 mb-[2rem] text-n-3">As</p>
+                <p className="body-2 mb-[2rem] text-n-1">
+                  Our classes: Spells, Transfiguration, Potions, Herbology,
+                  Astronomy, Defense Against the Dark Arts, History of Magic,
+                  Divination, Muggle Studies, Care of Magical Creatures.
+                </p>
 
                 <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
@@ -105,18 +108,18 @@ const Services = () => {
                       key={index}
                       className={`rounded-2xl flex items-center justify-center ${
                         index === 2
-                          ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
-                          : "flex w-10 h-10 bg-n-6 md:w-15 md:h15"
+                          ? "w-[3rem] h-[3rem] p-0.25 md:w-[4.5rem] md:h-[4.5rem]"
+                          : "flex w-10 h-10 md:w-35 md:h-35"
                       }`}
                     >
                       <div
                         className={
                           index === 2
-                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
+                            ? "flex items-center justify-center w-full h-full"
                             : ""
                         }
                       >
-                        <img src={item} width={24} height={24} alt={item} />
+                        <img src={item} width={72} height={72} alt={item} />
                       </div>
                     </li>
                   ))}
@@ -135,7 +138,6 @@ const Services = () => {
                   alt="Scary robot"
                 />
                 <VideoChatMessage />
-                <VideoBar />
               </div>
             </div>
           </div>

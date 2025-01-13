@@ -1,4 +1,4 @@
-import { smallSphere, stars } from "../assets";
+import { smallSphere, stars, logo } from "../assets";
 import Section from "./design/Section";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
@@ -10,7 +10,7 @@ const Pricing = () => {
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
-            src={smallSphere}
+            src={logo}
             className="relative z-1"
             width={255}
             height={255}
