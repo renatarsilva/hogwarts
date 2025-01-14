@@ -1,4 +1,4 @@
-import { curve, heroBackground, castelo } from "../assets";
+import { heroBackground, castelo } from "../assets";
 import Button from "./Button";
 import Section from "./design/Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
