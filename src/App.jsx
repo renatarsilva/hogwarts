@@ -9,21 +9,23 @@ import Services from "./components/Services";
 import Footter from "./components/Footter";
 
 const App = () => {
-  return ( 
-  <>
-    <div className="pt-[4.75rem] lg:pt-[5.25rem] 
-    overflow-hidden">
-    <Header />
-    <Hero />
-    <Benefits />
-    <Collaboration />
-    <Services />
-    <Pricing />
-    <Roadmap />
-    <Footter />
-    </div>
+  return (
+    <>
+      <div
+        className="pt-[4.75rem] lg:pt-[5.25rem] 
+    overflow-hidden"
+      >
+        <Header />
+        <Hero />
+        <Benefits />
+        <Collaboration />
+        <Services />
+        <Pricing />
+        <Roadmap />
+        <Footter />
+      </div>
 
-    <ButtonGradient />
+      <ButtonGradient />
     </>
   );
 };

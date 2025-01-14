@@ -91,7 +91,7 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 import alvo from "./benefits/alvo.png";
-import minerva from "./benefits/minerva.jpg";
+import minerva from "./benefits/Minerva.jpg";
 import snape from "./benefits/snape.png";
 import sibila from "./benefits/sibila.png";
 import filius from "./benefits/filius.jpg";
