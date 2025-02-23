@@ -56,7 +56,11 @@ const Hero = () => {
         bg-conic-gradient"
           >
             <div className="aspect-[33/40] rounded-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-              <img src={castelo} className="w-full" alt="Hogwarts Castle" />
+              <img
+                src={castelo}
+                className="w-full h-full"
+                alt="Hogwarts Castle"
+              />
               <Generating
                 className="absolute left-4 right-4
                     bottom-5 md:left-1/2
