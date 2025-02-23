@@ -42,11 +42,12 @@ const Hero = () => {
             Hogwarts is a legendary school of magic, where young witches and
             wizards learn powerful spells.
           </p>
-          <Button href="/pricing" white>
+          <Button href="#pricing" white>
             Get started
           </Button>
         </div>
         <div
+          id="hat"
           className="relative max-w-[23rem] mx-auto 
         md:max-w-5xl xl:mb-24"
         >

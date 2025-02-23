@@ -55,7 +55,7 @@ export const navigation = [
   {
     id: "0",
     title: "Professors",
-    url: "#Professors",
+    url: "#features",
   },
   {
     id: "1",
@@ -65,12 +65,12 @@ export const navigation = [
   {
     id: "2",
     title: "Sorting Hat",
-    url: "#Sorting-hat",
+    url: "#hat",
   },
   {
     id: "3",
     title: "Houses",
-    url: "#Houses",
+    url: "#roadmap",
   },
   {
     id: "4",
