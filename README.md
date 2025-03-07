@@ -2,7 +2,7 @@
 
 Welcome to **Hogwarts School**, a fan-made project designed to be the official website of the Hogwarts School of Witchcraft and Wizardry! 🏰✨
 
-<img center="right" src="../hogwarts/src/assets/services/bg.png"  />
+<img center="right" src="https://github.com/renatarsilva/hogwarts/blob/main/src/assets/services/bg.png?raw=true"  />
 
 ## 🔮 About the Project
 
